@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-flow: column;
+  margin: 24px;
+
+  .form-field {
+    margin-top: 12px;
+  }
+
+  .image-select {
+    margin-top: 16px;
+  }
+}
