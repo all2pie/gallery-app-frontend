@@ -6,8 +6,6 @@ import { Images } from './pages/Images/Images';
 import { ImageFrom } from './pages/Image-Form/Image-From';
 
 function App() {
-  console.log('API => ', process.env);
-
   return (
     <Router>
       <Header />

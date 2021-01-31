@@ -22,14 +22,13 @@ export class Images extends React.Component<{}, State> {
 
   async componentDidMount() {
     const { data } = await client.get('image');
-    console.log('res', data);
     this.setState({ images: data });
   }
 
   render() {
     return (
       <div className='Images'>
-        <GridList cellHeight={180} className='grid'>
+        <GridList cellHeight={220} className='grid'>
           <GridListTile key='Subheader' cols={2} style={{ height: 'auto' }}>
             <ListSubheader component='div'>Images</ListSubheader>
           </GridListTile>

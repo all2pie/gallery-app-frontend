@@ -39,7 +39,6 @@ export class ImageFrom extends React.Component<any> {
 
       await this.setState({ url: image });
 
-      console.log('this.state', this.state);
       const { data } = await client.post('image', this.state);
       this.props.history.push('/');
     } catch (error) {
