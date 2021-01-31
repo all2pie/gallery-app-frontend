@@ -12,7 +12,6 @@ function App() {
 
       <Switch>
         <Route exact path='/' component={Images}></Route>
-
         <Route exact path='/image/add' component={ImageFrom}></Route>
       </Switch>
     </Router>
